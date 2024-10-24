@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="DCD8QG28zWlcHyg9apf9" x="0" y="0"></block><block type="device_forever" id="cTR6+c([~dr5P.5GTh:6" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^;eVNx_q8Ho!R)1`rpTI">randomIcon</variable></variables><block type="device_gesture_event" id="a]ZDVunQtUq3cKcPK3I*" x="55" y="56"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="]8l.)luG0Dj|O04lg@p%"><field name="VAR" id="^;eVNx_q8Ho!R)1`rpTI">randomIcon</field><value name="VALUE"><shadow type="math_number" id="V_.L@dKg9;;|[[4/Xti@"><field name="NUM">0</field></shadow><block type="device_random" id="krdoM96!XM`3G}hyP%JC"><value name="min"><shadow type="math_number" id="r1K+7NQAufYu9pv=kZ5^"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="JzCjU@#[Q0RRE?Q2pbd5"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="Jac?KJ!X_(z9m1OY)rK!"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="SdbB:;[.G)JK8UigVZ:~"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@z^he%yc8f^brBZ!)q(*"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="xEuBr2`1:+Et[aDbm;Go"><field name="NUM">0</field></shadow><block type="variables_get" id="vy!jr{J+DUMm1G#+:zf}"><field name="VAR" id="^;eVNx_q8Ho!R)1`rpTI">randomIcon</field></block></value><value name="B"><shadow type="math_number" id="u*ksI.-|rU|8c].}4ob`"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L0e8w8jIO{swU:h)}lkO"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="0qhjw^@rMIs/o~Xjb.cb"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="t6RSt5u:YUEw^4./#,4c"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="gY|o)Jd9^:VP4QYz!l6]"><field name="NUM">0</field></shadow><block type="variables_get" id="[4w*,wPf{cT3mc}Z%4U,"><field name="VAR" id="^;eVNx_q8Ho!R)1`rpTI">randomIcon</field></block></value><value name="B"><shadow type="math_number" id="m)Wso6e$xc3589d!S6!t"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="g7z;pTIZ5C{)WV1p#$-1"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        # # # # # 
+        # # # # . 
+        . # # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id=".i?|t?k31NO;.tJYCIWu"><field name="LEDS">`
+        . # . . # 
+        # . # # . 
+        . # # . . 
+        # . # # . 
+        . # . . #
+        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id="14*V[FA{D~EhI_#.Q2Cu" x="827" y="94"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="A~SGJUMo`Rl=qJ=-v_e`"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="7r9wR:D4L!6,Q%GCowpU" x="841" y="430"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="h@BrKeRuao!kTTG0GN,M"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        # # # # # 
+        # # # # . 
+        . # # . .
+        `</field></block></statement></block><block type="device_button_event" id="kpmia$r{1a#=D6Waiy?0" x="817" y="775"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="5KP@IJM#PWZ8*.VQ)S^K"><field name="LEDS">`
+        . # . . # 
+        # . # # . 
+        . # # . . 
+        # . # # . 
+        . # . . #
+        `</field></block></statement></block></xml>
